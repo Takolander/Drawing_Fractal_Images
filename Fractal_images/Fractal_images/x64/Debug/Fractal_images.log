@@ -1,0 +1,6 @@
+﻿  Bitmap.cpp
+E:\Workspace\Drawing_Fractal_Images\Fractal_images\Fractal_images\BitmapInfoHeader.h(20,20): warning C4081: expected 'newline'; found ';'
+  main.cpp
+  Mandelbrot.cpp
+  Generating Code...
+  Fractal_images.vcxproj -> E:\Workspace\Drawing_Fractal_Images\Fractal_images\x64\Debug\Fractal_images.exe
