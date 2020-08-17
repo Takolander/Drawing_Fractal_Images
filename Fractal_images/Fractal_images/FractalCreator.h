@@ -22,6 +22,9 @@ private:
 
 	std::vector<int> m_ranges;
 	std::vector<RGB> m_colors;
+	std::vector<int> m_rangeTotals;
+
+	bool m_bGotFirstRange{ false };
 
 public:
 	FractalCreator(int width, int height);
@@ -32,8 +35,10 @@ public:
 private:
 	void calculateIterations();
 	void calculateTotalIterations();
+	void calculateRangeTotals();
 	void drawFractal();
 	void writeBitmap(std::string name);
+	int getRange(int iterations) const;
 
 public:
 	void run(std::string name);
